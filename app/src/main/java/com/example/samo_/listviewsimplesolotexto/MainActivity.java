@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // debe extender de ListActivity
+// el xml de la lista tiene que llamarse obligatoriamente layout_listview.xml
+// el activity_main.xml tiene que contener un listview con un id (android:id="@android:id/list")
 public class MainActivity extends ListActivity {
 
     private String[] contenido = {"contenido 1", "contenido 2", "contenido 3", "contenido 4"};
